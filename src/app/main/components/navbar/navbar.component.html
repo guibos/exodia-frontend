@@ -1,0 +1,11 @@
+<mat-toolbar>
+    <h1>Exodia</h1>
+    <button [matMenuTriggerFor]="menu" mat-button>Weiss Schwarz</button>
+    <mat-menu #menu="matMenu">
+        <a aria-current="page" class="nav-link active" mat-menu-item routerLink="/weiss-schwarz/album/form"
+           routerLinkActive="active">Album</a>
+        <a aria-current="page" class="nav-link active" mat-menu-item routerLink="/weiss-schwarz/inserts/form"
+           routerLinkActive="active">Inserts</a>
+    </mat-menu>
+</mat-toolbar>
+

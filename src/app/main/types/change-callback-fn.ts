@@ -1,0 +1,1 @@
+export type ChangeCallbackFn<T> = (value: T) => void;

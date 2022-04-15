@@ -1,0 +1,15 @@
+<mat-form-field [formGroup]="CardRarityForm" [style.width.%]="100" appearance="fill">
+    <mat-label>Card</mat-label>
+    <input [matAutocomplete]="autoGroup"
+           formControlName="selected"
+           matInput
+           required
+           type="text">
+    <mat-autocomplete #autoGroup="matAutocomplete" [displayWith]="displayFn">
+        <mat-optgroup *ngFor="let release of stateGroupOptions | async" [label]="release.name">
+            <mat-option *ngFor="let cardRarityBasic of release.cardRarities" [value]="cardRarityBasic">
+                {{cardRarityBasic.searchName()}}
+            </mat-option>
+        </mat-optgroup>
+    </mat-autocomplete>
+</mat-form-field>

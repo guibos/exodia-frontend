@@ -1,0 +1,19 @@
+<main class="container" role="main">
+
+    <h1 class="mt-5">Deck form</h1>
+
+    <p class="lead">Fill form with cards that you want to print.</p>
+
+    <form [formGroup]="deckInsertsForm" class="example-container">
+        <app-form-play-set formControlName="playSets"></app-form-play-set>
+
+        <div>
+            <button (click)="onSubmit()" [disabled]="deckInsertsForm.pristine || deckInsertsForm.invalid"
+                    mat-raised-button
+                    type="button">Submit
+            </button>
+        </div>
+
+    </form>
+    <pre>Form Values: {{deckInsertsForm.value | json}}</pre>
+</main>

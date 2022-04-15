@@ -1,0 +1,29 @@
+<ng-container [formGroup]="$any(playSetArrayForm)">
+    <ng-container *ngFor="let playSetForm of playSetArrayForm.controls; let index = index">
+        <div [formGroupName]="index">
+            <div class="row">
+                <div class="col-1">
+                    <button (click)="addPlaySet()" *ngIf="playSetArrayForm.length -1 == index"
+                            aria-label="Add new playSet" color="primary" mat-fab>
+                        <mat-icon>add</mat-icon>
+                    </button>
+                </div>
+                <div class="col-sm-2">
+                    <mat-form-field [style.width.%]="100" appearance="fill">
+                        <mat-label>Quantity</mat-label>
+                        <input formControlName="quantity" matInput min="1" placeholder="Ex. 4" type="number">
+                    </mat-form-field>
+                </div>
+                <div class="col-sm">
+                    <app-card-rarity-selector formControlName="cardRarity"></app-card-rarity-selector>
+                </div>
+                <div class="col-1">
+                    <button (click)="removePlaySet(index)" *ngIf="playSetArrayForm.length > 1"
+                            aria-label="Remove a playSet" color="warn" mat-fab>
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</ng-container>
