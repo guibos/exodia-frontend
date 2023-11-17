@@ -1,0 +1,36 @@
+image: node:16
+
+pages:
+  before_script:
+    - apt-get update -y && apt-get install -yqqf openssh-client git unzip sshpass rsync lftp ftp --fix-missing
+    - eval $(ssh-agent -s)
+    - mkdir ~/.ssh/
+    - echo "${CI_KNOWN_HOSTS}" > ~/.ssh/known_hosts
+    - echo "${SSH_PUSH_KEY}" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - git config --global user.email "no-reply@shirokuro.club"
+    - git config --global user.name "Shirokuro.club"
+
+  script:
+    - mkdir public
+    - npm install
+    - npm run build
+
+    - git clone git@gitlab.com:shirokuro.club/assets.git
+    - rm -rf assets/public
+    - mkdir assets/public
+    - cp -r dist/shirokuro/es-ES/assets/* assets/public
+    - cp config/sitemap.xml assets/public
+    - rm -rf dist/shirokuro/ca-ES/assets
+    - rm -rf dist/shirokuro/en-US/assets
+    - rm -rf dist/shirokuro/es-ES/assets
+    - bash scripts/upload.sh "${FTP_USER}" "${FTP_PASS}" "${FTP_HOST}"
+
+    - cd assets
+    - git add *
+    - git commit -am "$(date +"%Y-%m-%dT%H:%M:%S%z")" || echo "Nothing to commit"
+    - git push git@gitlab.com:shirokuro.club/assets.git --all || echo "Nothing to push"
+
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"
+
