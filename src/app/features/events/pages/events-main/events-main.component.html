@@ -1,0 +1,28 @@
+<h2 class="pb-3 mb-4 border-bottom">{{title}}</h2>
+<app-activities></app-activities>
+
+<h3 class="pb-2 mb-3 border-bottom" i18n="@@events-colaborations-title">Collaborations</h3>
+
+<p i18n="@@events-colaborations-description">We have held activities for the following events:</p>
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <ng-container *ngFor="let event of events">
+    <div class="col">
+      <app-event-card [event]="event"></app-event-card>
+    </div>
+  </ng-container>
+</div>
+
+<app-map></app-map>
+
+<app-events-activities [imagesPath]="EVENTS_IMAGES_PATH"></app-events-activities>
+
+
+<h3 class='pb-2 mb-3 fst-italic border-bottom' i18n="@@events-new-events-title">New events</h3>
+
+<p i18n="@@events-new-events-description">We are currently looking for entities to hold new events. One of the ideas
+  that we are considering is the realization of an event for charitable collection.</p>
+
+<button class="btn btn-dark  mt-4 px-5" fragment="contact" i18n="@@contact-us" routerLink="/about-us"
+        type="button"><strong>Contact us!</strong></button>

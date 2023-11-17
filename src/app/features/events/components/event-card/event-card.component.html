@@ -1,0 +1,12 @@
+<div class="card h-100">
+  <div class="ratio ratio-16x9">
+    <img [alt]="event.name" [src]="event.logoURL">
+  </div>
+  <div class="card-body">
+    <h4 class="mb-0 border-bottom mb-2 pb-2">{{event.name}}</h4>
+    <p>{{event.description}}</p>
+    <a *ngIf="event.url" [href]="event.url" class="stretched-link"></a>
+
+  </div>
+</div>
+

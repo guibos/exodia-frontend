@@ -1,0 +1,37 @@
+.link {
+  display: none;
+}
+
+.card:hover {
+  background-color: #f8f9fa;
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.gymkhana-events {
+  padding: 0px;
+}
+
+.gymkhana-events-component {
+  padding-top: 8px;
+}
+
+.gymkhana-events-component-left {
+  padding-left: 16px;
+  padding-right: 8px;
+}
+
+.gymkhana-events-component-right {
+  padding-right: 16px;
+  padding-left: 8px;
+}

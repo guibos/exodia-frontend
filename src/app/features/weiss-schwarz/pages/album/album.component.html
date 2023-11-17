@@ -1,0 +1,12 @@
+<ng-select [(ngModel)]="productSelected"
+           [items]="products"
+           [multiple]="false"
+           bindLabel="name"
+           bindValue="id">
+  <ng-template let-item="item" ng-optgroup-tmp>
+    {{item.name}}
+  </ng-template>
+</ng-select>
+
+
+<button (click)="submit()" class="btn btn-dark mt-4 submit" type="button"><strong>Submit</strong></button>

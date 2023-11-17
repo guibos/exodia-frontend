@@ -1,0 +1,21 @@
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.list-group-item:hover {
+  background-color: var(--bs-body-bg) !important
+}
+
+.list-group-item {
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important
+}
+
+.list-group-item {
+  border: 0px;
+}

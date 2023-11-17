@@ -1,0 +1,26 @@
+<div class="card h-100">
+  <div class="image">
+    <div class="ratio ratio-16x9">
+      <img alt="Snow" class="backGround" src="{{event.image[0]}}" style="width:100%;">
+    </div>
+    <div class="top-right"><span class="badge text-bg-warning">{{event.getHumanRegressiveInterval()}}</span></div>
+    <div *ngIf="event.participants !== null" class="bottom-left"><span
+      class="badge text-bg-warning">{{event.participants}} <abbr
+      i18n="@@calendar-participants">participants</abbr></span></div>
+  </div>
+  <div class="card-body" style="position: relative; padding-bottom: 35px">
+    <h3 class="card-title pb-2 mb-3 border-bottom">{{event.name}}</h3>
+    <h4 class="card-subtitle  text-muted event-type">{{event.getHumanEventType()}}</h4>
+
+    <p class="mb-1 text-muted">
+      <span class="" i18n="@@event-date">Date:</span> {{event.startDate | date :'short'}}
+    </p>
+    <div [innerHTML]="event.description"></div>
+    <p class="card-text" style="position: absolute; bottom: 0px; right: 16px">
+      <strong>
+        <small class="text-muted"><span i18n="@@price">Price: </span>{{event.getHumanPrice()}}</small>
+      </strong>
+    </p>
+    <a *ngIf="event.url" [href]="event.url" class="stretched-link"></a>
+  </div>
+</div>

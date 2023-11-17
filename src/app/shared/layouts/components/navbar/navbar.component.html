@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <button (click)="isMenuCollapsed = !isMenuCollapsed" class="navbar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <a (click)="isMenuCollapsed = true" *ngFor="let navItem of _navItems" [routerLinkActiveOptions]="{exact: true}"
+           [routerLink]="navItem.url"
+           class="nav-link" routerLinkActive="active">
+          <li class="nav-item">{{navItem.name}}</li>
+        </a>
+
+      </ul>
+    </div>
+    <app-language-selector></app-language-selector>
+
+  </div>
+</nav>

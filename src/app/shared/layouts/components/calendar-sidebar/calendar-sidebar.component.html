@@ -1,0 +1,28 @@
+<div class="list-group">
+  <a *ngFor="let event of events" class="list-group-item list-group-item-action flex-column align-items-start"
+     href="{{event.url}}">
+    <div class="image">
+      <img alt="Snow" class="backGround" src="{{event.image[0]}}" style="width:100%;">
+      <div class="top-right"><span class="badge text-bg-warning">{{event.getHumanRegressiveInterval()}}</span></div>
+      <div *ngIf="event.participants !== null" class="bottom-left"><span
+        class="badge text-bg-warning">{{event.participants}} <abbr
+        i18n="@@calendar-participants">participants</abbr></span></div>
+    </div>
+    <h3 class="card-title pb-2 mb-3  mt-2 border-bottom">{{event.name}}</h3>
+    <h4 class="card-subtitle  text-muted event-type">{{event.getHumanEventType()}}</h4>
+
+    <p class="mb-1 text-muted">
+      <span class="" i18n="@@event-date">Date:</span> {{event.startDate | date :'short'}}
+    </p>
+    <div [innerHTML]="event.description"></div>
+    <p class="card-text"><strong><small class="text-muted"><span i18n="@@price">Price: </span>{{event.getHumanPrice()}}
+    </small></strong></p>
+
+  </a>
+
+  <a class="list-group-item list-group-item-action flex-column align-items-start"
+     routerLink="/calendar">
+    <h5 class="card-title pb-2  mt-2"><span i18n="@@more-events-activities">More events or activities</span> <fa-icon [icon]="faAnglesRight" class="ms-2"></fa-icon>
+    </h5>
+  </a>
+</div>

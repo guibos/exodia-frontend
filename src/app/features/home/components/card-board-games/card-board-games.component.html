@@ -1,0 +1,22 @@
+<div class="card h-100" onClick="click">
+  <div class="ratio ratio-16x9">
+    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            frameborder="0"
+            height="100%"
+            src="https://www.youtube.com/embed/aq8BJvB4ggM?playlist=aq8BJvB4ggM&controls=0&autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&modestbranding=0"
+            title="YouTube video player"
+            width="100%"></iframe>
+  </div>
+  <div class="card-body">
+    <h3 class="mb-0" i18n="board-games-card.title">Board games</h3>
+    <app-next-event [eventTypes]="eventTypes"></app-next-event>
+    <p class="card-text mb-auto" i18n="board-games-card.description">Do you like board games? This is your
+      community!</p>
+  </div>
+  <div class="list-group list-group-flush text-center">
+    <a class="list-group-item list-group-item-action" routerLink="/activities/board-games"><strong
+      i18n="more-information">More information</strong></a>
+  </div>
+
+</div>

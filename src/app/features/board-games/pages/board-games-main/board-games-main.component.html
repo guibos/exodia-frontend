@@ -1,0 +1,30 @@
+<h2 class="pb-3 mb-4 border-bottom">{{title}}</h2>
+
+<p i18n="@@boardgames.description1">
+  Shirokuro.club periodically organizes different meetings to play board games at
+  <a fragment="map" routerLink=".">Espai Jove Casa Sagnier</a>.
+</p>
+
+<p i18n="@@boardgames.description2">
+  In our private channel we create different groups and games to play in the next meeting. Each meet we choose different
+  boardgames types.
+</p>
+
+
+<div class="my-5">
+  <app-shirokuro-carrousel [imagesPath]="imagesPath"></app-shirokuro-carrousel>
+</div>
+
+
+<app-events-activities [imagesPath]="EVENTS_IMAGES_PATH"></app-events-activities>
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <app-activity-participate-card [eventTypes]="eventTypes"
+                                   imageUrl="/assets/activities/board-games/games/Mansions-of-Madness.jpg"></app-activity-participate-card>
+  </div>
+  <div class="col">
+    <app-join-us-card></app-join-us-card>
+  </div>
+</div>

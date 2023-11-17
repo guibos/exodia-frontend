@@ -1,0 +1,20 @@
+<form class="card-body" [formGroup]="authForm" (ngSubmit)="onSubmit()">
+  <h3 class="pb-2 mb-3 border-bottom" i18n="@@account.sign-in" [id]="signIn">Sign in</h3>
+
+
+  <div *ngIf="showAuthenticationStatusMessage" class="alert alert-danger" role="alert" >
+    {{authenticationStatusMessage}}
+  </div>
+
+  <div class="form-floating">
+    <input type="email" class="form-control" id="username" placeholder="name@example.com" formControlName="username">
+    <label for="username" i18n="@@email-address">Email address</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="password" placeholder="Password" formControlName="password">
+    <label for="password" i18n="@@password">Password</label>
+  </div>
+
+  <button class="w-100 btn btn-lg btn-dark mt-3" type="submit" i18n="@@sign-in">Sign in</button>
+
+</form>

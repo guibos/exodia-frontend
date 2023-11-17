@@ -1,0 +1,24 @@
+<div class="card h-100">
+  <div class="ratio ratio-16x9">
+    <svg class="bi bi-person-plus-fill" fill="currentColor" height="16" viewBox="0 0 16 16" width="16"
+         xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      <path
+        d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"
+        fill-rule="evenodd"/>
+    </svg>
+  </div>
+  <div class="card-body">
+    <h3 class="mb-0" i18n="@@contactUs">Join us!</h3>
+    <div class="mb-1 text-muted"><a class="mb-1 text-muted" routerLink="/calendar" fragment="join-us" i18n="activities.calendar">Activities calendar</a></div>
+    <app-join-us-text></app-join-us-text>
+  </div>
+  <div class="list-group list-group-flush text-center">
+
+    <a class="list-group-item list-group-item-action" fragment="join-us" routerLink="/about-us"><strong
+      i18n="@@contactUs">Join us!</strong></a>
+    <a class="list-group-item list-group-item-action" routerLink="/calendar"><strong
+      i18n="@@calendar">Calendar</strong></a>
+  </div>
+
+</div>

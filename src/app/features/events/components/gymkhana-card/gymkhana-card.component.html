@@ -1,0 +1,23 @@
+<a [routerLink]="routerLink" class="gymkhana-events list-group-item list-group-item-action flex-column activities"
+   id="gymkhana">
+  <div class="row g-0">
+    <div class="col-md-4 gymkhana-events-component gymkhana-events-component-left">
+      <img [src]="event.image" alt="..." class="img-fluid rounded-start">
+    </div>
+    <div class="col-md-8 gymkhana-events-component gymkhana-events-component-right">
+      <div class="card-body">
+        <h5 class="card-title pb-1 mb-2 border-bottom">{{event.name}}</h5>
+        <p class="mb-0 text-muted">
+          <b class="" i18n="@@event-period">Period:</b> {{event.startDate | date :'short'}}
+          ~ {{event.endDate | date :'short'}}
+        </p>
+        <p class="mb-2 text-muted">
+          <b class="" i18n="@@event-location">Location:</b> {{event.location[0]!.name}}
+          , {{event.location[0]!.address}}
+        </p>
+        <p class="card-text">{{event.description}}</p>
+        <a *ngIf="event.url" [href]="event.url" class="stretched-link"></a>
+      </div>
+    </div>
+  </div>
+</a>

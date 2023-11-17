@@ -1,0 +1,46 @@
+#boardgames {
+  background-image: url("/assets/activities/board-games/games/Nemesis.png");
+}
+
+#weiss-schwarz {
+  background-image: url("/assets/events/activities/weiss-schwarz/2021-09-04T10:32:22-Japan-Weekend-Barcelona.jpg");
+}
+
+#gymkhana {
+  background-image: url("/assets/events/activities/weiss-schwarz/2019-03-08T18:55:36-Japan-Weekend-Barcelona.jpg");
+}
+
+
+.activities {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  border-bottom: 2px solid white;;
+
+}
+
+.activities:hover {
+  opacity: 0.6;
+}
+
+h4 {
+  margin: 16px 0px;
+  font-size: 20px;
+}
+
+span {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+}
+
+
+span {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 3px;
+  padding: 2px 15px;
+  margin: 20px 0px;
+
+}

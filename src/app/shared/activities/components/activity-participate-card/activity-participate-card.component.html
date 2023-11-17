@@ -1,0 +1,19 @@
+<div class="card h-100">
+  <div class="ratio ratio-16x9">
+    <img [src]="imageUrl">
+  </div>
+  <div class="card-body">
+    <h3 class="mb-0" i18n="@@participate-title">Participate!</h3>
+    <app-next-event [eventTypes]="eventTypes"></app-next-event>
+    <app-participate-text></app-participate-text>
+
+  </div>
+  <div class="list-group list-group-flush text-center">
+    <a class="list-group-item list-group-item-action" fragment="calendar" routerLink="."><strong
+      i18n="@@weiss-schwarz.calendar" i18n="@@calendar">Calendar</strong></a>
+    <a class="list-group-item list-group-item-action" fragment="contact" routerLink="/about-us"><strong
+      i18n="@@weiss-schwarz.contactUs" i18n="@@contactUs">Contact us!</strong></a>
+
+  </div>
+
+</div>

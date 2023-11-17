@@ -1,0 +1,22 @@
+.row {
+  padding-bottom: 1rem;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+.add-remove {
+  aspect-ratio: 1 / 1 !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+}
+
+.btn-col {
+  padding: 5px
+}
+
+button {
+  font-size: 25px;
+}

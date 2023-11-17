@@ -1,0 +1,12 @@
+<div ngbDropdown #dropDownElement="ngbDropdown">
+  <a aria-expanded="false" class="d-block link-dark text-decoration-none dropdown-toggle"
+     data-bs-toggle="dropdown"
+     ngbDropdownToggle>
+    <fa-icon [icon]="faCircleUser" size="2x"></fa-icon>
+  </a>
+  <div class="dropdown-menu dropdown-menu-end" ngbDropdownMenu>
+    {{logged}}
+    <app-account-login-dropdown [dropDownElement]="dropDownElement" *ngIf="!logged"></app-account-login-dropdown>
+    <app-account-menu-dropdown *ngIf="logged"></app-account-menu-dropdown>
+  </div>
+</div>

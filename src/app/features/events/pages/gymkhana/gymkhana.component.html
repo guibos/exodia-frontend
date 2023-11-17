@@ -1,0 +1,26 @@
+<p>
+  Para poder realizar la yinkana se requiere escanear la entrada o introducir el código de la entrada.
+</p>
+
+<div class="alert alert-warning" role="alert">
+  Es realmente importante que se conserve la entrada del evento y que el código de la entrada sea introducido
+  correctamente. Ya que es la única forma de poder validar que no se realizan trampas. En caso de no seguir estas
+  directivas se podrá denegar la participación en el sorteo.
+</div>
+
+
+<h3 *ngIf="currentEvents()" class="pb-3 mb-4 fst-italic border-bottom">Current events</h3>
+<div class="list-group mb-5">
+  <ng-container *ngFor="let event of currentEvents()">
+    <app-gymkhana-card [event]="event"></app-gymkhana-card>
+  </ng-container>
+</div>
+
+
+<h3 *ngIf="futureEvents()" class="pb-3 mb-4 mt-4 fst-italic border-bottom">Future events</h3>
+<div class="list-group mb-5">
+  <ng-container *ngFor="let event of futureEvents()">
+    <app-gymkhana-card [event]="event"></app-gymkhana-card>
+  </ng-container>
+</div>
+

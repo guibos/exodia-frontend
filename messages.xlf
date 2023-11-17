@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/alert/alert.ts</context>
+          <context context-type="linenumber">42,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION" equiv-text="ut() keyboard:"/> of <x id="INTERPOLATION_1" equiv-text="f `true`, will"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">157,162</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">202</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">224,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">224,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">224,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">224,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">224,226</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">224,226</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">224,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">224,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="* The maxim"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">23,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">135,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">176,177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">189,190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">205,206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">227,228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">244,245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">268,270</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">286,287</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/toast/toast.ts</context>
+          <context context-type="linenumber">70,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-us.description1" datatype="html">
+        <source>Shirokuro.club is a nonprofit club that our purpose is to make activities of manga, anime, Japanese culture, Weiß Schwarz, board games and video games.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/components/about-us/about-us.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-us.description2" datatype="html">
+        <source>Formally created on <x id="INTERPOLATION" equiv-text="{{officialCreationDate | date: &quot;longDate&quot;}}"/> by a set of people that was playing <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/activities/weiss-schwarz&quot;&gt;"/>Weiß Schwarz<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. But our activities started many years ago.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/components/about-us/about-us.component.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-us.description3" datatype="html">
+        <source>Shirokuro name is a bad pun. &quot;Weiß Schwarz&quot; are two german words that his translation is &quot;White Black&quot;. Due that &quot;Weiß Schwarz&quot; is a japanese game we choice a japanese name: Shiro(白) kuro (黒) that also his translation is &quot;White Black&quot;.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/components/about-us/about-us.component.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.title" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/components/contact/contact.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about-us.contact.description1" datatype="html">
+        <source>We currently have the following social networks:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/components/contact/contact.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8188466195784749672" datatype="html">
+        <source>Join us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">join-us.title</note>
+      </trans-unit>
+      <trans-unit id="7338368809308164237" datatype="html">
+        <source>To join us you must send a presentation letter to the email that appears in the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+  fragment=&quot;contact-email&quot; routerLink=&quot;/about-us&quot;&gt;"/>contact<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> section.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/components/join-us/join-us.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+        <note priority="1" from="description">join-us.description-2</note>
+      </trans-unit>
+      <trans-unit id="5177271580930771415" datatype="html">
+        <source>Participate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/pages/about-us-main/about-us-main.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">participate.title</note>
+      </trans-unit>
+      <trans-unit id="contact" datatype="html">
+        <source>About us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/about-us/pages/about-us-main/about-us-main.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="boardgames.description1" datatype="html">
+        <source> Shirokuro.club periodically organizes different meetings to play board games at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a fragment=&quot;map&quot; routerLink=&quot;.&quot;&gt;"/>Espai Jove Casa Sagnier<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/board-games/pages/board-games-main/board-games-main.component.html</context>
+          <context context-type="linenumber">1,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="boardgames.description2" datatype="html">
+        <source> In our private channel we create different groups and games to play in the next meeting. Each meet we choose different boardgames types.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/board-games/pages/board-games-main/board-games-main.component.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="boardGames.title" datatype="html">
+        <source>Board games</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/board-games/pages/board-games-main/board-games-main.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="calendar-participants" datatype="html">
+        <source>participants</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/calendar/components/event-card/event-card.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/components/calendar-sidebar/calendar-sidebar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="event-date" datatype="html">
+        <source>Date:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/calendar/components/event-card/event-card.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/components/calendar-sidebar/calendar-sidebar.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="price" datatype="html">
+        <source>Price: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/calendar/components/event-card/event-card.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/components/calendar-sidebar/calendar-sidebar.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="calendar.title" datatype="html">
+        <source>Calendar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/calendar/pages/main-calendar/main-calendar.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-colaborations-title" datatype="html">
+        <source>Collaborations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-colaborations-description" datatype="html">
+        <source>We have held activities for the following events:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-new-events-title" datatype="html">
+        <source>New events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-new-events-description" datatype="html">
+        <source>We are currently looking for entities to hold new events. One of the ideas that we are considering is the realization of an event for charitable collection.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-us" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Contact us!<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events" datatype="html">
+        <source>Events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events.japan-weekend-description" datatype="html">
+        <source>Japan Weekend is the largest pop culture event in Spain.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events.akihabara-deep-description" datatype="html">
+        <source>Akihabara@Deep is an interassociative project for the creation of the first free multiplex lounge for alternative leisure and oriental culture.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events.fontana-by-night-description" datatype="html">
+        <source>La Fontana by Night is the festival of dispersed culture and alternative leisure of the Barcelona Youth Council (CJB) and Espai Jove La Fontana.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events.big-day-description" datatype="html">
+        <source>On the Big Day you can spend a day playing board games with classic games and other more modern ones in Espai Jove Casa Sagnier.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/events/pages/events-main/events-main.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3219409077587645233" datatype="html">
+        <source>Board games</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-board-games/card-board-games.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">board-games-card.title</note>
+      </trans-unit>
+      <trans-unit id="1320375815056572314" datatype="html">
+        <source>Do you like board games? This is your community!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-board-games/card-board-games.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <note priority="1" from="description">board-games-card.description</note>
+      </trans-unit>
+      <trans-unit id="4619188387782427495" datatype="html">
+        <source>More information</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-board-games/card-board-games.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">more-information</note>
+      </trans-unit>
+      <trans-unit id="events-card.title" datatype="html">
+        <source>Events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-events/card-events.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-card.description" datatype="html">
+        <source>We participate in multiple events throughout the year. If you want us to participate in an event, contact us!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-events/card-events.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-card.moreInformation" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>More information<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-events/card-events.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-videogames.title" datatype="html">
+        <source>Video games</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-videogames/card-videogames.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-videogames.description" datatype="html">
+        <source>Do you like video games? Are you from the community and you like to play with friends? Contact us. You probably will find someone willing to play or talk.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-videogames/card-videogames.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="events-videogames.moreInformation" datatype="html">
+        <source>More information</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-videogames/card-videogames.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.weiss-schwarz.description" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Do you like Manga and Anime?<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> This is your board game! It is based on combat from various anime and video games today.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-weiss-schwarz/card-weiss-schwarz.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="generalInformation" datatype="html">
+        <source>More information</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-weiss-schwarz/card-weiss-schwarz.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.demonstrations" datatype="html">
+        <source>Demonstrations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-weiss-schwarz/card-weiss-schwarz.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.oficialTournaments" datatype="html">
+        <source>Official Tournaments</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/card-weiss-schwarz/card-weiss-schwarz.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="main.scope" datatype="html">
+        <source>Alternative culture and leisure club in Barcelona.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/pages/main/main.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="main.purpose" datatype="html">
+        <source>Our purpose is to make activities of manga, anime, Japanese culture, Weiß Schwarz, board games and video games.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/pages/main/main.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7138928793839129242" datatype="html">
+        <source>Shirokuro.club organizes differents video games activities to have fun.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/video-games/pages/video-games-main/video-games-main.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">video-games.description</note>
+      </trans-unit>
+      <trans-unit id="video-games.title" datatype="html">
+        <source>Video Games</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/video-games/pages/video-games-main/video-games-main.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="demonstrations" datatype="html">
+        <source>Demonstrations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/components/learn-to-play/learn-to-play.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="on-demand" datatype="html">
+        <source>On demand</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/components/learn-to-play/learn-to-play.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.demonstrations.description" datatype="html">
+        <source>We carry out totally <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>free demonstrations<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Depending on availability, a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>demo deck will be given away<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> to new players.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/components/learn-to-play/learn-to-play.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.demonstrations.contact" datatype="html">
+        <source>Contact us to learn!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/components/learn-to-play/learn-to-play.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="56063643851478954" datatype="html">
+        <source>Official tournaments</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/components/tournaments/tournaments.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">weissSchwarz.officialTournament</note>
+      </trans-unit>
+      <trans-unit id="6045896406796068326" datatype="html">
+        <source>We carry out <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>official tournaments totally free<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. This includes the official material that Bushiroad provides. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/components/tournaments/tournaments.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <note priority="1" from="description">weissSchwarz.officialTournaments</note>
+      </trans-unit>
+      <trans-unit id="3825802286872185103" datatype="html">
+        <source>Calendar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/components/tournaments/tournaments.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">calendar</note>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.description1" datatype="html">
+        <source>Weiβ Schwarz is the most popular trading card game in Japan! Dozens of anime and video game worlds come together for epic crossover duels with all your favorite characters!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/pages/weiss-schwarz-main/weiss-schwarz-main.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.description2" datatype="html">
+        <source>With the cute character of the Weiβ (White) side and the action-adventure characters of the Schwarz (Black) side, you can build your dream team!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/pages/weiss-schwarz-main/weiss-schwarz-main.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.emotive" datatype="html">
+        <source>Replay famous scenes and create new ones limited only by your imagination! Call your favorite characters to your own personal stage, in Weiβ Schwarz!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/pages/weiss-schwarz-main/weiss-schwarz-main.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1083782434094569728" datatype="html">
+        <source>Shirokuro.club offers different Weiβ Schwarz activities:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/weiss-schwarz/pages/weiss-schwarz-main/weiss-schwarz-main.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">weiss-schwarz.shirokuro</note>
+      </trans-unit>
+      <trans-unit id="interval.day" datatype="html">
+        <source>day</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interval.days" datatype="html">
+        <source>days</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interval.hour" datatype="html">
+        <source>hour</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interval.hours" datatype="html">
+        <source>hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interval.minute" datatype="html">
+        <source>minute</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interval.minutes" datatype="html">
+        <source>minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interval.second" datatype="html">
+        <source>second</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interval.seconds" datatype="html">
+        <source>seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="event.free-price" datatype="html">
+        <source>Free</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eventType.boardGame" datatype="html">
+        <source>Board games</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eventType.event" datatype="html">
+        <source>Event</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eventType.other" datatype="html">
+        <source>Other</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/ld-event/ld-event.ts</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.preferred" datatype="html">
+        <source>Preferred way to contact us.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/social-network/social-network.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.restricted" datatype="html">
+        <source>Restricted social network.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/social-network/social-network.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.activities" datatype="html">
+        <source>Activities network.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/social-network/social-network.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.Unknown" datatype="html">
+        <source>Unknown social network.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/classes/social-network/social-network.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="participate-title" datatype="html">
+        <source>Participate!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/activity-participate-card/activity-participate-card.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.calendar" datatype="html">
+        <source>Calendar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/activity-participate-card/activity-participate-card.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weiss-schwarz.contactUs" datatype="html">
+        <source>Contact us!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/activity-participate-card/activity-participate-card.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3164540170493267520" datatype="html">
+        <source>Events activities</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/events-activities/events-activities.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">events</note>
+      </trans-unit>
+      <trans-unit id="events-activities.description" datatype="html">
+        <source>Shirokuro.club carries out free activities for <x id="START_LINK" ctype="x-a" equiv-text="&lt;a fragment=&quot;events&quot;
+                                                                                            routerLink=&quot;/events&quot;&gt;"/>events<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> in the Barcelona metropolitan area.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/events-activities/events-activities.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactUs" datatype="html">
+        <source>Join us!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/join-us-card/join-us-card.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/join-us-card/join-us-card.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="joinus.description1" datatype="html">
+        <source>Let us meet you. Participate in our activities. Club with totally healthy environment. We have 0 tolerance with toxic people.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/join-us-text/join-us-text.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nextEvent.humanDescriptionOK" datatype="html">
+        <source>Next event or activity:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/next-event/next-event.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nextEvent.humanDescriptionKO" datatype="html">
+        <source>No events or activities programed.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/next-event/next-event.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-participate-description-1" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Do you want to participate in our activities?<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> Check the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a fragment=&quot;calendar&quot; routerLink=&quot;.&quot;&gt;"/>calendar<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> for next activities. You can get more information of all our activities in <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/&quot;&gt;"/>home<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/participate-text/participate-text.component.html</context>
+          <context context-type="linenumber">2,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact-participate-description-2" datatype="html">
+        <source>To participate in any activity is required to <x id="START_LINK" ctype="x-a" equiv-text="&lt;a fragment=&quot;contact&quot;
+                                                                                               routerLink=&quot;/about-us&quot;&gt;"/>contact us<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/participate-text/participate-text.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navItems.home" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/nav-items.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navItems.board-games" datatype="html">
+        <source>Board games</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/nav-items.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navItems.events" datatype="html">
+        <source>Events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/nav-items.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navItems.video-games" datatype="html">
+        <source>Video games</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/nav-items.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navItems.calendar" datatype="html">
+        <source>Calendar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/nav-items.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navItems.aboutUs" datatype="html">
+        <source>About us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/nav-items.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="more-events-activities" datatype="html">
+        <source>More events or activities</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/components/calendar-sidebar/calendar-sidebar.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2471229163174544608" datatype="html">
+        <source>Sections</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/components/footer/footer.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">index.sections</note>
+      </trans-unit>
+      <trans-unit id="471816275243265264" datatype="html">
+        <source>Location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/components/footer/footer.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">index.location</note>
+      </trans-unit>
+      <trans-unit id="5813867925497374051" datatype="html">
+        <source>Map</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/components/footer/footer.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">index.map</note>
+      </trans-unit>
+      <trans-unit id="7577269726901312538" datatype="html">
+        <source>© 2022 Guillermo Ferrer. All rights reserved.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/components/footer/footer.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">footer.rights</note>
+      </trans-unit>
+      <trans-unit id="calendar-title" datatype="html">
+        <source> Calendar </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layouts/pages/with-calendar/with-calendar.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="course.weiss-schwarz-name" datatype="html">
+        <source>Weiβ Schwarz demonstrations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/services/json-ld/json-ld.service.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="course.weiss-schwarz-description" datatype="html">
+        <source>We carry out totally free demonstrations. Depending on availability, a demo deck will be given away to new players.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/services/json-ld/json-ld.service.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

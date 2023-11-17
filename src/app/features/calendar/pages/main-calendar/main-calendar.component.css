@@ -1,0 +1,39 @@
+.card-group {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  /* max-height:475px; <-- remove */
+  background-color: lightgrey;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card {
+  background-color: cornflowerblue;
+  width: 400px;
+  margin: 0px;
+  flex: 2;
+  border: 1px solid lightgrey;
+  display: flex; /* new */
+  flex-direction: column; /* new */
+}
+
+.card-block {
+  padding: 10px;
+  background-color: #fff;
+  flex: 1; /* new */
+}
+
+.card-title {
+  font-size: 18px;
+  color: grey;
+  font-family: verdana, sans;
+}
+
+.card-footer {
+  padding: 15px;
+  border-top: 1px solid lightgrey;
+  background-color: lightgrey;
+}

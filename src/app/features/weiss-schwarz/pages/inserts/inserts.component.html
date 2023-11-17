@@ -1,0 +1,46 @@
+<form [formGroup]="form">
+  <div *ngFor="let playSet of form.controls['deck'].value; let i = index" formArrayName="deck">
+    <div [formGroupName]="i" class="row">
+      <div class="col-xl-1 btn-col">
+        <button (click)="removePlaySet(i)" *ngIf="form.controls['deck'].value.length > 1"
+                class="btn btn-danger mb-3 add-remove"
+                type="button">-
+        </button>
+      </div>
+      <div class="col-xl-1 btn-col">
+        <button (click)="insertPlaySet(i+1)" class="btn btn-primary mb-3 add-remove" type="button">+</button>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="form-floating">
+          <input class="form-control" formControlName="quantity" id="quantity{{i}}" min="1" type="number" value="1">
+          <label for="quantity{{i}}" i18n="@@weiss-schawarz-inserts-quantity">Quantity</label>
+        </div>
+      </div>
+      <div class="col-xxl-8">
+
+
+        <div class="form-floating">
+          <select class="form-select" formControlName="id" id="card{{i}}">
+            <optgroup *ngFor="let product of productsCardRarity" [label]="product.name">
+              <option *ngFor="let cardRarity of product.cardRarities" [value]="cardRarity.id">
+                {{ cardRarity.searchName() }}
+              </option>
+            </optgroup>
+          </select>
+          <label for="card{{i}}" i18n="@@weiss-schawarz-inserts-card">Card</label>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</form>
+<button (click)="submit()" class="btn btn-dark" i18n="@@weiss-schawarz-inserts-submit" style="float: right;"
+        type="button">Submit
+</button>
+
+<pre>{{form.value | json }}</pre>
+
+
+

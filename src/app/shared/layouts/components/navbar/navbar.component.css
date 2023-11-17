@@ -1,0 +1,12 @@
+#nav-home {
+  padding-left: 0px;
+}
+
+
+.nav .nav-link {
+  color: grey;
+}
+
+.nav .active {
+  color: black;
+}

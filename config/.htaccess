@@ -1,0 +1,50 @@
+SetEnv PHP_VER 5_3
+SetEnv REGISTER_GLOBALS 0
+
+
+RewriteEngine on
+
+RewriteRule /assets(/.*|$) https://assets.shirokuro.club$1 [QSA,L,R=301]
+
+RewriteRule es-ES/assets(/.*|$) https://assets.shirokuro.club$1 [QSA,L,R=301]
+
+RewriteRule ca-ES/assets(/.*|$) https://assets.shirokuro.club$1 [QSA,L,R=301]
+
+RewriteRule en-US/assets(/.*|$) https://assets.shirokuro.club$1 [QSA,L,R=301]
+
+RewriteCond %{REQUEST_URI} !/es-ES/ngsw.json
+RewriteRule "ngsw.json" /es-ES/ngsw.json [L,R=301]
+
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{HTTP:Accept-Language} ^es [NC]
+RewriteRule (.*) /es-ES/
+
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{HTTP:Accept-Language} ^ca [NC]
+RewriteRule (.*) /ca-ES/
+
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{HTTP:Accept-Language} !^ca [NC]
+RewriteCond %{HTTP:Accept-Language} !^es [NC]
+RewriteRule (.*) /en-US/
+
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_URI} ^/es-ES/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /es-ES/index.html [L]
+
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_URI} ^/ca-ES/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /ca-ES/index.html [L]
+
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_URI} ^/en-US/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /en-US/index.html [L]

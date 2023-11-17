@@ -1,0 +1,34 @@
+<h2 class="pb-3 mb-4 border-bottom">{{title}}</h2>
+
+<p i18n="@@weiss-schwarz.description1">Weiβ Schwarz is the most popular trading card game in Japan! Dozens of anime and
+  video game worlds come together for epic crossover duels with all your favorite characters!</p>
+<p i18n="@@weiss-schwarz.description2">With the cute character of the Weiβ (White) side and the action-adventure
+  characters of the Schwarz (Black) side, you can build your dream team!</p>
+
+<div class="my-4">
+  <app-card-selection></app-card-selection>
+</div>
+<p i18n="@@weiss-schwarz.emotive">Replay famous scenes and create new ones limited only by your imagination!
+  Call your favorite characters to your own personal stage, in Weiβ Schwarz!</p>
+
+<app-events-activities [imagesPath]="EVENTS_IMAGES_PATH"></app-events-activities>
+
+<p i18n="weiss-schwarz.shirokuro">Shirokuro.club offers different Weiβ Schwarz activities:</p>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 my-4">
+  <div class="col">
+    <app-tournaments></app-tournaments>
+  </div>
+  <div class="col">
+    <app-learn-to-play></app-learn-to-play>
+  </div>
+  <div class="col">
+    <app-activity-participate-card [eventTypes]="eventTypes"
+                                   imageUrl="assets/activities/weiss-schwarz/shiyoko.jpg"></app-activity-participate-card>
+  </div>
+  <div class="col">
+    <app-join-us-card></app-join-us-card>
+  </div>
+
+
+</div>

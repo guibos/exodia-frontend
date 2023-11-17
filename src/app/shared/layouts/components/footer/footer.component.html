@@ -1,0 +1,65 @@
+<footer class=" pb-5 mt-5 bg-light">
+  <div class="container">
+    <div class="row ">
+
+      <div class="col-md-3 mt-5">
+        <h2 class="border-bottom pb-2" i18n="index.sections">Sections</h2>
+        <ul class="list-group list-group-flush">
+          <ng-container *ngFor="let navItem of _navItems">
+            <a [routerLink]="navItem.url"
+               class="list-group-item d-flex justify-content-between align-items-start list-group-item-action px-2">
+              <img [src]="navItem.iconURL" width="24">
+              <div class="ms-2 me-auto">
+                <div class="">{{navItem.name}}</div>
+              </div>
+            </a>
+          </ng-container>
+        </ul>
+      </div>
+
+
+      <div class="col-md-3 mt-5">
+        <h2 class="border-bottom pb-2" i18n="index.location">Location</h2>
+        <div class="mt-3 mb-2"><strong>Shirokuro.club</strong></div>
+        <address>
+          <strong><i>Espai Jove Casa Sagnier</i></strong><br/>
+          Carrer de Brusi, 61<br/>
+          08006 Barcelona, <span i18n="Spain">Spain</span>
+        </address>
+      </div>
+
+
+      <div class="col-md-6 mt-5">
+        <h2 class="border-bottom pb-2" i18n="index.map">Map</h2>
+        <iframe allowfullscreen=""
+                height="240"
+                id="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.708142077241!2d2.139459836181597!3d41.40214423672109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4980ac8b45425%3A0x10673c6d3c3be9a3!2sEspacio%20Joven%20Casa%20Sagnier!5e0!3m2!1ses!2ses!4v1660491494159!5m2!1ses!2ses"
+                style="border:0;"
+                width="100%"></iframe>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p i18n="footer.rights">© 2022 Guillermo Ferrer. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <ng-container *ngFor="let socialNetwork of _SOCIAL_NETWORKS">
+          <li *ngIf="socialNetwork.url || socialNetwork.link" class="ms-3">
+            <ng-container *ngIf="socialNetwork.url; else internal">
+              <a [href]="socialNetwork.url" class="link-dark">
+                <img [src]="socialNetwork.imageUrl" class="social-icon"/>
+              </a>
+            </ng-container>
+            <ng-template #internal>
+              <a [fragment]="socialNetwork.fragment || ''" [href]="socialNetwork.url"
+                 [routerLink]="socialNetwork.url || socialNetwork.link"
+                 class="link-dark">
+                <img [src]="socialNetwork.imageUrl" class="social-icon"/>
+              </a>
+            </ng-template>
+
+          </li>
+        </ng-container>
+      </ul>
+    </div>
+  </div>
+</footer>
